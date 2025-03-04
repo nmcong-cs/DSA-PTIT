@@ -1,0 +1,1 @@
+{"name":"Local: DSA2001","url":"c:\\Users\\7420 PLUS\\Desktop\\B23DCAT032\\DSA\\DSA2001.cpp","tests":[{"id":1740998743265,"input":"2\n5 50\n5 10 15 20 25\n8 53\n15 22 14 26 32 9 16 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\7420 PLUS\\Desktop\\B23DCAT032\\DSA\\DSA2001.cpp","group":"local","local":true}
