@@ -8,14 +8,14 @@ void solve(){
         cout << -1; 
         return; 
     } 
-    int total = s * m; // tổng lượng lương thực cần có 
-    int x = (s - s/7) * n; // lượng lương thực tối đa có thể mua được 
-    if(x < total){ // nếu không thể mua đủ lương thực thì chết đói 
+    int total = s * m; 
+    int x = (s - s/7) * n; 
+    if(x < total){ 
         cout << -1; 
      return; 
     } 
-    int ans = total / n; // số ngày cần để mua đủ lượng lương thực cần thiết 
-    if(total % n != 0){ // nếu lẻ thì cần thêm 1 ngày nữa 
+    int ans = total / n; 
+    if(total % n != 0){ 
      ++ans; 
     } 
         cout << ans; 
